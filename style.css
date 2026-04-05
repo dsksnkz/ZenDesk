@@ -1,0 +1,89 @@
+
+/*--- Fonts ---*/
+
+.jetbrains{
+  font-family: "JetBrains Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.montserrat{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.zen-dots{
+  font-family: "Zen Dots", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.red-hat{
+  font-family: "Red Hat Text", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*--- main ---*/
+
+body{
+  background-color: #131314;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px; 
+}
+
+.navbar nav {
+    flex: 1; 
+}
+
+
+.navbar nav:last-child ul {
+    justify-content: flex-end;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.MainTitle {
+    font-family: "Red Hat Text";
+    text-align: center; 
+    font-size: 70px;
+    color: #d0d0d0;
+    margin: 0;
+    flex: 0; 
+    white-space: nowrap; 
+}
+
+
+li a {
+  color: #8a8a8a;        
+  text-decoration: none;
+  font-family: sans-serif;  
+}
+
+
+li a:visited {
+  color: #8a8a8a;
+  font-family: sans-serif;
+}
+
+li a:hover {
+  font-family: sans-serif;
+  color: #c0ffba;
+  text-shadow: 0 0 8px #a5e2a0; 
